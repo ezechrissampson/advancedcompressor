@@ -3,7 +3,7 @@ import imageCompression from "browser-image-compression"; // Library to compress
 import { PDFDocument } from "pdf-lib"; // Library to work with PDFs
 import JSZip from "jszip"; // Library to create ZIP files
 
-export default function FileCompressor() {
+const FileCompressor = () => {
   // Keep track of files (both original + compressed version)
   const [files, setFiles] = useState([]); // [{ original: File, compressed: Blob }]
   const [isProcessing, setIsProcessing] = useState(false); // Show loading message
@@ -170,3 +170,5 @@ export default function FileCompressor() {
     </div>
   );
 }
+
+export default FileCompressor;

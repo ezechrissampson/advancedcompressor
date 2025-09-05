@@ -32,8 +32,8 @@ This app allows you to **compress images and PDF files**, supports **drag-and-dr
 1. **Clone this repository**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/file-compressor.git
-cd file-compressor
+git clone https://github.com/ezechrissampson/advancedcompressor.git
+cd advancedcompressor
 ```
 
 2. **Install dependencies**
